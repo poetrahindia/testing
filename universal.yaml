@@ -1,0 +1,49 @@
+proxies:
+  - name: muifaha_ws
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 505311e2-9248-46ea-8ef1-17e7e2739133
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ctbo.patunganvps.me
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: ctbo.patunganvps.me
+    udp: true
+  - name: muifaha_sg
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: e52dabe8-9457-4a40-a0f2-2c5fbd8e28f1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: melbi-2.patunganvps.my.id
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: melbi-2.patunganvps.my.id
+    udp: true
+  - name: opentunnel.net-muifahaii
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idv-2.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-muifahaii
+      headers:
+        Host: idv-2.openv2ray.com
+    udp: true
