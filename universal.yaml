@@ -15,3 +15,19 @@ proxies:
       headers:
         Host: delta-2.patunganvps.me
     udp: true
+  - name: trialdo WS (CDN) TLS
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: d8165a9f-617b-4c05-b3f7-5fdda47eb285
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: wrv2.waroengvpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: wrv2.waroengvpn.cloud
+    udp: true
