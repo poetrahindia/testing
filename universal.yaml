@@ -1,6 +1,6 @@
 proxies:
     name: muifaha_wsnew
-    server: 104.7.3.81
+    server: 104.17.2.81
     port: 443
     type: vmess
     uuid: 18c11118-c7d4-4278-a966-946c82cb2316
@@ -16,7 +16,7 @@ proxies:
         Host: sdc-2.patunganvps.me
     udp: true
   - name: muifaha1_ws
-    server: 104.7.3.81
+    server: 104.17.2.81
     port: 443
     type: vmess
     uuid: d71d09e7-1e8b-481a-a6e8-caee2bae3c6b
